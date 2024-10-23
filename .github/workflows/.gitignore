@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Ignore environment variable files
+.env
+
+# Django database files
+*.sqlite3
+db.sqlite3
+
+# Static and media files
+/static/
+/media/
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
+*.dockerignore
+.docker/
+docker-compose.override.yml
+
+# IDE and editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Miscellaneous
+*.DS_Store  # macOS
+*.pid
+*.seed
+*.coverage
+*.egg-info/
+dist/
+build/
+*.egg
